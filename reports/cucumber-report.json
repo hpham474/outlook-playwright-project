@@ -1,0 +1,154 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "email-login,-search,-and-send;user-logs-into-email-account",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "User logs into email account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the login page",
+            "match": {
+              "location": "features\\step_definitions\\loginEmail.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4532014400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter my email credentials with \"EMAIL_CREDENTIALS\"",
+            "match": {
+              "location": "features\\step_definitions\\loginEmail.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3297326399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I select no for stay signed in",
+            "match": {
+              "location": "features\\step_definitions\\loginEmail.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10786226599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "features\\step_definitions\\loginEmail.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2447633600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click the new email button",
+            "match": {
+              "location": "features\\step_definitions\\loginEmail.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 540998999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I fill in the send to line with \"EMAIL_SENDTO\"",
+            "match": {
+              "location": "features\\step_definitions\\loginEmail.steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2998505199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I fill in the subject line with \"Playwright Test Email\"",
+            "match": {
+              "location": "features\\step_definitions\\loginEmail.steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 185200999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I fill in the body with \"This is a sample email to test PlayWright.\"",
+            "match": {
+              "location": "features\\step_definitions\\loginEmail.steps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162236499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click the send button",
+            "match": {
+              "location": "features\\step_definitions\\loginEmail.steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73808699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should receive an email with the subject line \"Playwright Test Email\"",
+            "match": {
+              "location": "features\\step_definitions\\loginEmail.steps.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11915971999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "email-login,-search,-and-send",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Email Login, Search, and Send",
+    "tags": [],
+    "uri": "features\\loginEmail.feature"
+  }
+]
