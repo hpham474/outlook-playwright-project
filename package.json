@@ -6,8 +6,8 @@
   "scripts": {
     "test:e2e": "cucumber-js",
     "report": "node report.js",
-    "test:report": "npm run test:e2e && npm run report",
-    "open:report": "start reports/html/index.html"
+    "test": "npm run test:e2e && npm run report",
+    "open": "start reports/html/index.html"
   },
   "keywords": [],
   "author": "",

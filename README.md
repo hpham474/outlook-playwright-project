@@ -62,7 +62,7 @@ EMAIL_CREDENTIALS="testuser@cognizant.com"
 
 ## 🗂️ Project Structure
 
-    project2-outlook-automation/
+    outlook-playwright-project/
     ├── features/
     │   ├── loginEmail.feature
     │   └── step_definitions/
@@ -85,13 +85,13 @@ EMAIL_CREDENTIALS="testuser@cognizant.com"
 ### ▶️ Run 
 
 ```bash
-npm run test:report
+npm run test
 ```
 
 ### ▶️ Open Report
 
 ```bash
-npm run open:report
+npm run open
 ```
 
 ## 📌 Key Features Implemented
@@ -123,7 +123,6 @@ npm run open:report
 
 *   Prefer **aria-label**, **role**, **placeholder**, and **text-based** selectors
 *   Avoid brittle CSS/XPath tied to internal Outlook markup
-*   Use fallback locators for UI variants:
 
 ***
 
