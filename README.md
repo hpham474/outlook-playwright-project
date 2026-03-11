@@ -46,15 +46,7 @@ npm install
 npx playwright install
 ```
 
-### 4️⃣ Setup .env
-
-You *can* keep that format, but if you're aiming for a clean, professional README, there’s a version that reads more naturally and follows common conventions used in open‑source projects.
-
-Here’s a polished alternative that feels clearer and more “README‑ish” without losing your intent:
-
----
-
-## 4️⃣ Environment Setup
+### 4️⃣ Environment Setup
 
 Create a `.env` file in the project root and define the following variables:
 
